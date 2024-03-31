@@ -1,0 +1,114 @@
+.recommendation {
+  width: 100%;
+  position: relative;
+  bottom: 10rem;
+  color: white;
+}
+
+.recommendation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.recommendation-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.recommendation-header img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.see-all {
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
+}
+
+.recommendation-cards {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  gap: 2rem;
+  width: 80%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-top: 2rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.recommendation-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.recommendation-card {
+  flex-shrink: 0;
+  width: 15rem;
+  height: 22rem;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.recommendation-card .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  scale: 1.4;
+}
+
+.recommendation-card-title {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  bottom: 0;
+  width: 100%;
+}
+
+.recommendation-info {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommendation-date {
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+.recommendation-place {
+  font-size: 0.6rem;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recommendation-location {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.icon {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.recommendation-other-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

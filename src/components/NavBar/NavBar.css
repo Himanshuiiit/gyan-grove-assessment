@@ -1,0 +1,168 @@
+.App-header {
+  display: flex;
+  height: 15vh;
+  flex-direction: column;
+  padding: 0 5%;
+}
+.header {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #cf2d2d;
+}
+
+.header-center {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.categories-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 0.75rem;
+  border: none;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.categories-btn img {
+  height: 100%;
+  color: white;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 60%;
+}
+
+.search-bar {
+  width: 100%;
+  height: 2rem;
+  padding: 0rem 0.5rem;
+  border: 0.5px solid #b0babf;
+  border-radius: 0.3rem;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.search img {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 0.5rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.fav-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #b0babf;
+  border: none;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.sign-in-btn {
+  border: 0.5px solid #b0babf;
+  font-weight: 600;
+  font-size: 0.85rem;
+  background-color: transparent;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: #b0babf;
+}
+
+.location-picker {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #b0babf;
+  height: 2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.next-icon {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0.5rem;
+  gap: max(20%, 2rem);
+  font-weight: 600;
+}
+
+.nav-bar-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-top: -1rem;
+  font-weight: 400;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+  font-size: 0.85rem;
+  color: #b0babf;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  width: min(90%, 50rem);
+  overflow-x: scroll;
+}
+.nav-links::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-links {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.nav-link {
+  flex-shrink: 0;
+}
+
+.hide {
+  display: none;
+}

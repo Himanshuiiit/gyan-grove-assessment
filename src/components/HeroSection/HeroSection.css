@@ -1,0 +1,47 @@
+.hero {
+  height: 70vh;
+  background: url("../../../public/assets/images/Banner.svg") center top;
+  background-size: cover;
+  text-align: center;
+  padding-top: 8%;
+  color: white;
+}
+
+.hero > h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 0 20%;
+  margin: 0;
+}
+.hero > p {
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 0 25%;
+}
+
+@media screen and (max-width: 1256px) {
+  .hero {
+    height: 80vh;
+  }
+  .hero > h1 {
+    font-size: 3rem;
+    padding: 5% 10%;
+  }
+  .hero > p {
+    padding: 0 15%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 85vh;
+  }
+  .hero > h1 {
+    font-size: 2rem;
+    padding: 8% 7%;
+  }
+  .hero > p {
+    padding: 0 10%;
+  }
+}
