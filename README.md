@@ -1,9 +1,9 @@
 # Assessment for front-end Developer Profile at Gyan Grove
 
-I have used react.js with javaScript and for vanilla CSS is being using in the appication to be more abstract
-For resposiveness in jsx part, useMediaQuery hook is being used and for CSS part basic media query is used
-For infinite scrolling, a temporary invisible component is used and when that comonent enters the view port, the next set of data id fetched from the API.
-For horzontal scroll, flex box in being used with additional CSS properties like flex-shrink and overflow, also the scroll bar is also hidden.
+I have used react.js with JavaScript and for vanilla CSS is being using in the application to be more abstract. <br />
+For resposiveness in jsx part, useMediaQuery hook is being used and for CSS part basic media query is used. <br />
+For infinite scrolling, a temporary invisible component is used and when that comonent enters the view port, the next set of data id fetched from the API. <br />
+For horzontal scroll, flex box in being used with additional CSS properties like flex-shrink and overflow, also the scroll bar is also hidden. <br />
 
 
 ## To run the application locally
